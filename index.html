@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Company</title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+ <!--Запасной план   <img src="img/Template(Rus).png" alt="Zadaniye"> -->
+    <div class="ves-sait">
+        <div class="part1">
+            <div class="part11">
+                <img src="img/logo.png" alt="logo">
+                <p class="p1">С помощью нас<br> вы сможете сделать всё, о чём </p>
+                <p class="big-word">желаете!</p>
+                <p>Наши возможности+опыт позволят Вам достичь огромного успеха. Мы верим в нас! И знаем это на все 100%. Вас не остановить!</p>
+                <button class="button1"><a href="https://ru.m.wikipedia.org">Узнать больше...</a></button>         
+            </div>
+            <div class="part12">
+                <img src="img/header-img.png" alt="header-img" width="65%">
+            </div>
+        </div>
+        <div class="part2">
+            <div class="part21">
+                <h2>Что вам необходимо?</h2>
+            </div>
+            <div class="part22">
+                <div class="part221">
+                    <img src="img/f3.png" alt="crayon" height="100px">
+                    <p class="tolstyachok">Первый блок</p>
+                    <p>лорум сантос</p>
+                </div>
+                <div class="part222">
+                    <img src="img/f4.png" alt="ballon" height="100px">
+                    <p class="tolstyachok">Второй блок</p>
+                    <p>лорум сантос</p>
+                </div>
+                <div class="part223">
+                    <img src="img/f5.png" alt="flag" height="100px">
+                    <p class="tolstyachok">Третий блок</p>
+                    <p>лорум сантос</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="part3novichok" id="orderForm">
+            <h2>Форма заказа продукта или услуги</h2>
+            <input type="text" id="order-name" name="name" placeholder="Имя" required>
+            <input type="text" id="order-surname" name="surname" placeholder="Фамилия" required>
+            <input type="tel" id="order-phone" name="phone" placeholder="Номер телефона" required>
+            <input type="text" id="order-destination" name="destination" placeholder="Место назначения" required>
+            <input type="date" id="order-date" name="date" required>
+            <input type="time" id="order-time" name="time" required>
+            <input type="number" id="order-quantity" name="quantity" placeholder="Количество" required>
+            <select id="order-payment" name="payment" required>
+                <option value="" disabled selected>Метод оплаты</option>
+                <option value="cash">Наличные</option>
+                <option value="card">Банковская карта</option>
+                <option value="online">Онлайн-платеж</option>
+            </select>
+            <button id="submitBtn" class="button3">Отправить заказ</button>
+        </div>
+        <div class="part3">
+            <h2>Форма заказа обратного звонка</h2>
+            <input type="text" id="callback-name" name="name" placeholder="Имя">
+            <input type="text" id="callback-email" name="E-mail" placeholder="E-mail">
+            <input type="tel" id="callback-phone" name="phone" placeholder="Номер телефона">
+            <input type="text" id="callback-theme" name="theme" placeholder="Какая тема вас интересует?">
+            <button class="button2">Отправить вопрос!</button>
+        </div>
+        <div class="part4">
+            <p>(c) Всё на этом сайте защищено</p>
+        </div>
+    </div>
+    <script src="js/validation.js"></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 900;
+}
+
+.ves-sait {
+    display: flex;
+    flex-direction: column;
+}
+
+.part1{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(82,162,244);
+    color: white;
+    width: 100%;
+    padding-bottom: 3%;
+    gap: 15%;
+}
+.part11{
+    margin-top: 30px;
+    width: 25%;
+    margin-left: 15%;
+}
+.part12{
+    margin-top: 30px;
+    width: 35%;
+}
+
+.p1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.big-word{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+button{
+    background-color: gold;
+    color: black;
+    font-size: 18px;
+    height: 15%;
+}
+
+.part2{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+.part21{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.part22{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 20%;
+    gap: 30%;
+
+}
+.part3novichok {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирование по горизонтали */
+    background-color: rgb(236, 243, 248);
+    color: black;
+    text-align: center;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    gap: 15px; /* Добавил отступ между элементами */
+}
+
+.part3novichok select {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+.part3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирование по горизонтали */
+    background-color: rgb(236, 243, 248);
+    color: black;
+    text-align: center;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+input {
+    height: 40px;
+    width: 20%;
+    margin: 10px 0px;
+}
+.button1{
+    width: 50%;
+}
+.button2{
+    width: 20%;
+    height: 40px;
+}
+.button3 {
+    width: 20%;
+    min-width: 150px;
+    height: 40px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.part4{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(82,162,244);
+    color: white;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+}
+.tolstyachok{
+    font-weight: bold;
+    
+}
